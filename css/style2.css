@@ -1,0 +1,288 @@
+body{
+  font-size: 12px;
+  font-family: Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  border-top: 3px solid #76c590;
+ }
+/*-- Header,Navbar --*/
+.header{
+	background-color: #250000;
+}
+.navbar-default{
+	padding: 10px;
+}
+.brand span{
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.brand p{
+	font-size: 12px;
+	color: #fff;
+}
+#navbar ul li a{
+	color: #fff;
+	font-size: 12px;
+}
+.current, #navbar ul li a:hover {
+  color:#ffffff;
+  background-color: #76c590;
+  border-radius: 10px;
+}
+/* end of Header,Navbar */ 
+
+/* SLIDER */
+.right_side{
+	float: right;
+	position: relative;
+	bottom: 100px;
+	
+}
+#myCarousel .slider-one{
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+.left_side{
+	position: relative;
+	bottom: 50px;
+	
+}
+.left_side p{
+	text-align: left;
+	font-size: 13px;
+}
+.left_side h1{
+	text-align: left;
+
+}
+.left_side button{
+	position: relative;
+	right: 195px;
+	padding: 5px;
+	border-radius: 6px;
+}
+#myCarousel{
+	position: relative;
+	bottom: 20px;
+}
+#arrows{
+	position: relative; 
+	bottom: 360px;
+}
+@media (max-width: 991px){
+	.left_side h1{
+		font-size: 20px;
+		text-align: center;
+	}
+	.left_side p{
+		font-size: 12px;
+		text-align: center;
+	}
+	.left_side button{
+		position: relative;
+		left: 5px;
+	}
+	.right_side img{
+		position: relative;
+		right: 180px;
+		top: 60px;
+	}
+}
+@media (max-width: 520px){
+	.right_side img{
+		position: relative;
+		left: 15px;
+	}
+	.left_side h1{
+		position: relative;
+		top: 10px;
+		font-size: 18px;
+	}
+	.left_side p{
+		position: relative;
+		top: 10px;
+		font-size: 11px;
+	}
+	.left_side button{
+		position: relative;
+		top: 5px;
+	}
+}
+/* END OF SLIDER */
+
+/* SECTION */
+section{
+	background-color: #660000;
+	position: relative;
+	bottom: 22px;
+	min-height: 1130px;
+}
+.box{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	width: 270px;
+	text-decoration: none;
+}
+.box h3{
+	color: black;
+	text-decoration: none;
+	top: 50px;
+}
+.box p{
+	color: black;
+	position: relative;
+	font-size: 12px;
+	text-align: justify;
+
+	
+}
+.boxes{
+	position: relative;top: 50px;
+}
+.img{
+	width: 120px;
+	height: 120px;
+	background-color: #333333;
+	position: relative;
+	left: 55px;
+
+}
+.img_text{
+	position: relative;
+	top: 50px;
+	color: white;
+}	
+.box:hover{
+	background-color: #76c590;
+}
+section .container .row .boxes .box a{
+	text-decoration: none;
+}
+.row a:hover{
+	color: black;
+	text-decoration-line: none;
+}
+div.box:hover div.img {
+  background-color:#ffffff;
+  color: #303030;
+}
+@media (max-width: 991px){
+	.boxes{
+		position: relative;
+		left: 350px;
+		margin: 5px;
+	}
+}
+@media (max-width: 1125px){
+	.boxes{
+		margin: 5px;
+		position: relative;
+		left: 100px;
+	}
+}
+
+/* SECTION TITLE */ 
+
+h2 {
+    font: 33px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headline span {
+    color: #ffffff;
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 92px;
+}									/* i copied this [not just copy-paste] */
+ h2.headline {
+    position: relative;
+    z-index: 1;
+}
+
+h2.title:after {
+    border: 1px solid #323232;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 320%; left: 0; right: 0;
+    z-index: -1;
+}
+/* section 2  */
+.box2{
+	background-color: #ffffff;
+	width: 350px;
+	position: relative;
+	top: 40px;
+	margin: 10px;
+	height: 250px;
+}
+.box2 img{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.caption{
+	position: absolute;
+	left: 80px;
+	bottom: 10px;
+	width: 100%;
+	color: #ffffff;
+}
+.box2:hover h4 {
+   opacity: 0;
+}
+.boxes2{
+	position: relative;
+	top: 100px;
+	right: 5px;
+}
+.box2:hover{
+	background-color: #76c590;
+}
+footer{
+	width: 100%;
+	background-color: #323232;
+	height: 600px;
+	position: relative;
+	bottom: 22px;
+}
+.footer2{
+	width: 100%
+	background-color: #3d3f42;
+	border: 1px solid black;
+	height: 80px;
+	position: relative;
+	bottom: 22px;
+}
+.footerbox2{
+	float: right;
+}
+.footerbox2 p{
+	position: relative;
+	right: 50px;
+
+}
+.footerbox p{
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+@media (max-width: 640px){
+	.footerbox2{
+		position: relative;
+		top: 20px;
+		right: 50px;
+	}
+}
+@media (max-width: 500px){
+	.footerbox2{
+		position: relative;
+		right: 50px;
+	}
+}
